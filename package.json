@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "install": "^0.13.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "c",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "Dhiraj Singh",
+  "license": "ISC",
+  "description": ""
+}
