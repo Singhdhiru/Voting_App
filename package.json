@@ -1,15 +1,29 @@
 {
-  "dependencies": {
-    "install": "^0.13.0"
-  },
-  "scripts": {
-    "start": "node server.js"
-  },
-  "name": "c",
+  "name": "voting_app",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
-  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "npx nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Singhdhiru/Voting_App.git"
+  },
   "author": "Dhiraj Singh",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/Singhdhiru/Voting_App/issues"
+  },
+  "homepage": "https://github.com/Singhdhiru/Voting_App#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.10.1",
+    "nodemon": "^3.1.9"
+  }
 }
