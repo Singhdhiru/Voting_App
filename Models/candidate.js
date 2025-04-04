@@ -33,5 +33,5 @@ const candidateSchema = new mongoose.Schema({
         default: 0
     }
 })
-const candidate = mongoose.model('candodate', userSchema);
+const candidate = mongoose.model('candidate', candidateSchema);
 module.exports = candidate;
