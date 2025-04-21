@@ -23,9 +23,43 @@ This is a backend application for a voting system where users can vote for candi
 
    ```bash
    git clone https://github.com/Singhdhiru/Voting_App.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Setup environment variables:
+   - Copy `.env.example` to `.env` and fill in values for `MONGO_URI`, `JWT_SECRET`, and `PORT`
+4. Start the server:
+   ```bash
+   npm start
+   ```
 
+## Folder Structure
 
-# API Endpoints
+```
+Voting_App/
+├── controllers/         # Route logic
+├── models/              # Mongoose schemas
+├── routes/              # Express route definitions
+├── middlewares/         # Authentication & error handling
+├── utils/               # Utility functions
+├── db.js                # Database connection
+├── server.js            # Entry point of the app
+├── .env.example         # Example env variables
+├── .gitignore
+├── package.json
+└── README.md
+```
+
+## Environment Variables
+
+Rename `.env.example` to `.env` and configure:
+- `MONGO_URI`: MongoDB connection URI
+- `JWT_SECRET`: Secret key for JWT tokens
+- `PORT`: Server port (default: 3000)
+
+## API Endpoints
 
 ## Authentication
 
